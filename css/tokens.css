@@ -1,0 +1,64 @@
+:root {
+  /* Color */
+  --color-bg: [IMPLEMENT];
+  --color-surface: [IMPLEMENT];
+  --color-surface-raised: [IMPLEMENT];
+  --color-text: [IMPLEMENT];
+  --color-text-muted: [IMPLEMENT];
+  --color-text-on-primary: [IMPLEMENT];
+  --color-primary: [IMPLEMENT];
+  --color-primary-hover: [IMPLEMENT];
+  --color-error: [IMPLEMENT];
+  --color-success: [IMPLEMENT];
+  --color-warning: [IMPLEMENT];
+  --color-border: [IMPLEMENT];
+  --color-focus-ring: [IMPLEMENT];
+
+  /* Typography */
+  --font-body: [IMPLEMENT];
+  --font-mono: [IMPLEMENT];
+  --font-size-base: [IMPLEMENT];
+  --font-size-sm: [IMPLEMENT];
+  --font-size-lg: [IMPLEMENT];
+  --font-size-xl: [IMPLEMENT];
+  --font-size-2xl: [IMPLEMENT];
+  --font-weight-normal: [IMPLEMENT];
+  --font-weight-bold: [IMPLEMENT];
+  --line-height: [IMPLEMENT];
+  --line-height-tight: [IMPLEMENT];
+
+  /* Spacing */
+  --space-xs: [IMPLEMENT];
+  --space-s: [IMPLEMENT];
+  --space-m: [IMPLEMENT];
+  --space-l: [IMPLEMENT];
+  --space-xl: [IMPLEMENT];
+
+  /* Shape & Motion */
+  --radius: [IMPLEMENT];
+  --radius-lg: [IMPLEMENT];
+  --transition: [IMPLEMENT];
+  --shadow-sm: [IMPLEMENT];
+  --shadow-md: [IMPLEMENT];
+  --shadow-lg: [IMPLEMENT];
+}
+
+/* Dark mode — override color tokens only */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: [IMPLEMENT];
+    --color-surface: [IMPLEMENT];
+    --color-text: [IMPLEMENT];
+    --color-text-muted: [IMPLEMENT];
+    --color-border: [IMPLEMENT];
+  }
+}
+
+/* High contrast — override color tokens only */
+@media (prefers-contrast: high) {
+  :root {
+    --color-text: [IMPLEMENT]; /* must be #000 or #fff */
+    --color-bg: [IMPLEMENT]; /* must be #000 or #fff */
+    --color-focus-ring: [IMPLEMENT]; /* high-visibility color */
+  }
+}
