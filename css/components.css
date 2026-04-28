@@ -1,0 +1,37 @@
+/**
+ * components.css - IMPLEMENT
+ * Web component and page-specific styles.
+ */
+
+app-shell {
+  background-color: var(--color-surface);
+  box-shadow: var(--shadow-sm);
+}
+
+header[role="banner"] {
+  border-bottom: 1px solid var(--color-border);
+  padding-block: var(--space-s);
+}
+
+footer[role="contentinfo"] {
+  border-top: 1px solid var(--color-border);
+  padding-block: var(--space-m);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+}
+
+/* Base styles for future skeleton components */
+app-nav {
+  display: block;
+}
+
+app-toast {
+  position: fixed;
+  bottom: var(--space-m);
+  right: var(--space-m);
+  z-index: 1000;
+}
+
+app-spinner {
+  display: none;
+}

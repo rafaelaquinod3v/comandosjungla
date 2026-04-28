@@ -1,0 +1,53 @@
+/**
+ * layout.css - JWAV3 SKELETON
+ * CSS Grid structural rules.
+ */
+
+:root {
+  box-sizing: border-box;
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+app-shell {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  width: 100%;
+}
+
+header {
+  grid-row: 1;
+}
+
+main {
+  grid-row: 2;
+  outline: none;
+}
+
+footer {
+  grid-row: 3;
+}
+
+/* Base structural constraints */
+main, header, footer {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: var(--space-m);
+}
