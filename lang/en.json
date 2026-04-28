@@ -1,0 +1,12 @@
+{
+  "welcome_heading": "Welcome to jcore",
+  "welcome_text": "Establishing the SOIL layer for the Comandos Jungla framework.",
+  "nav_home": "Home",
+  "nav_about": "About",
+  "copyright": "© 2026 Kubo Labs. All rights reserved.",
+  "error_generic": "An error occurred.",
+  "error_prefix": "Error:",
+  "loading": "Loading...",
+  "status_idle": "Idle",
+  "status_success": "Success"
+}
